@@ -1,0 +1,3 @@
+ArrayList: lưu danh sách, cho phép trùng, có thứ tự index
+HashSet: lưu tập hợp, không trùng, không quan tâm index
+HashMap: lưu key-value
