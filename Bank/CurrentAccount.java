@@ -1,6 +1,9 @@
 package Bank;
 
 public class CurrentAccount extends Account{
+    public CurrentAccount(String accountNumber, String ownerName, double balance) {
+        super(accountNumber, ownerName, balance, AccountType.CURRENT);
+    }
     @Override
     public void withdraw(double amount) {
         if(balance - amount<=-500){
